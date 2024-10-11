@@ -8,6 +8,7 @@ namespace Desafio_Pratico_02_Rocketseat.Controllers;
 public class Biblioteca : ControllerBase
 {
     private static List<Livros> livros = new List<Livros>();
+    private static List<LivroAtualizado> livroAtualizado = new List<LivroAtualizado>();
     [HttpPost]
     public IActionResult adicionarLivro([FromBody] Livros livro)
     {
@@ -37,13 +38,13 @@ public class Biblioteca : ControllerBase
     }
     [Route("{id}")]
     [HttpPut]
-    public IActionResult editarLivro(Guid id, [FromBody] LivroAtualizacaoDTO livroAtualizado)
+    public IActionResult editarLivro(Guid id, [FromBody] LivroAtualizado livroAtualizado)
     {
         try
         {
             var livro = livros.FirstOrDefault(I => I.Id == id);
             if (livro == null) throw new Exception("Livro não encontrado");
-            livro.editarLivro(livroAtualizado);
+            livroAtualizado.editarLivro(livro,livroAtualizado);
             return NoContent();
 
         }
