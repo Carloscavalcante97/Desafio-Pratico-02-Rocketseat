@@ -27,7 +27,7 @@ public class Biblioteca : ControllerBase
     {
         try
         {
-            if (livros.Count == 0) throw new Exception("Lista vázia");
+            if (livros.Count == 0) throw new Exception("Lista vazia");
             return Ok(livros);
         }
         catch (Exception e)
@@ -37,7 +37,7 @@ public class Biblioteca : ControllerBase
     }
     [Route("{id}")]
     [HttpPut]
-    public IActionResult editarLivro(int id, [FromBody] LivroAtualizacaoDTO livroAtualizado)
+    public IActionResult editarLivro(Guid id, [FromBody] LivroAtualizacaoDTO livroAtualizado)
     {
         try
         {
@@ -54,7 +54,7 @@ public class Biblioteca : ControllerBase
     }
     [Route("{id}")]
     [HttpDelete]
-    public IActionResult deletarLivro(int id)
+    public IActionResult deletarLivro(Guid id)
     {
         try
         {

@@ -5,8 +5,7 @@ namespace Desafio_Pratico_02_Rocketseat;
 public class Livros
 {
 
-    public static int contadorId = 1;
-    public int Id { get; private set; }
+    public Guid Id { get; private set; }
     public string Titulo { get; set; }
     public string Autor { get; set; }
     public string Genero { get; set; } = "Ficção";
@@ -51,7 +50,7 @@ public class Livros
     }
     public Livros(string titulo, string autor, string genero, decimal preco, int qtdEstoque)
     {
-        Id = contadorId++;
+        Id = Guid.NewGuid();
         Titulo = titulo;
         Autor = autor;
         Genero = genero;
