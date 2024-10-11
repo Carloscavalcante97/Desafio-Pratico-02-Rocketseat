@@ -56,7 +56,7 @@ public class Livros
         Genero = genero;
         Preco = preco;
         QtdEstoque = qtdEstoque;
-   
+
     }
 
 }
