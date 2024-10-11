@@ -25,3 +25,4 @@ Utilizei C# e ASP.NET Core para construir a API, além do Entity Framework Core 
 
 Ao final do desafio, percebi como é gratificante ver a aplicação funcionando. Aprendi muito sobre as melhores práticas de desenvolvimento e a importância de ter uma boa estrutura na API. Estou empolgado para aplicar tudo o que aprendi em projetos futuros!
 
+---
