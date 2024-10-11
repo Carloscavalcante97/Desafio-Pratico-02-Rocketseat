@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Desafio_Pratico_02_Rocketseat.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using static Desafio_Pratico_02_Rocketseat.Livros;
+using static Desafio_Pratico_02_Rocketseat.Models.Livros;
 
 namespace Desafio_Pratico_02_Rocketseat.Controllers;
 [Route("api/[controller]")]

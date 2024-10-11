@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Desafio_Pratico_02_Rocketseat;
+namespace Desafio_Pratico_02_Rocketseat.Models;
 
 public class Livros
 {
