@@ -17,12 +17,28 @@ Em seguida, implementei os seguintes endpoints na API:
 - **Editar Livro**: Este endpoint permite atualizar as informações de um livro específico.
 - **Excluir Livro**: Por fim, desenvolvi uma funcionalidade para excluir um livro que não é mais necessário.
 
-### Tecnologias que utilizei:
+  ![Example-Image]
 
-Utilizei C# e ASP.NET Core para construir a API, além do Entity Framework Core para gerenciar o acesso ao banco de dados. Essa experiência foi muito enriquecedora e me ajudou a aprofundar meus conhecimentos em desenvolvimento de APIs.
+### Construído com
+
+![badge-dot-net]
+![badge-windows]
+![badge-visual-studio]
+![badge-mysql]
+![badge-swagger]
 
 ### Conclusão
 
 Ao final do desafio, percebi como é gratificante ver a aplicação funcionando. Aprendi muito sobre as melhores práticas de desenvolvimento e a importância de ter uma boa estrutura na API. Estou empolgado para aplicar tudo o que aprendi em projetos futuros!
 
----
+
+
+<!-- Images -->
+[Example-Image]: Images/Example.png
+
+<!-- Badges -->
+[badge-dot-net]: https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=for-the-badge
+[badge-windows]: https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=fff&style=for-the-badge
+[badge-visual-studio]: https://img.shields.io/badge/Visual%20Studio-5C2D91?logo=visualstudio&logoColor=fff&style=for-the-badge
+[badge-mysql]: https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=for-the-badge
+[badge-swagger]: https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=for-the-badge
